@@ -1,0 +1,34 @@
+{
+  "name": "library-app",
+  "version": "1.0.0",
+  "description": "A simple library app to practice mongo(ose)",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fulgonim/library-app.git"
+  },
+  "author": "fulgonim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fulgonim/library-app/issues"
+  },
+  "homepage": "https://github.com/fulgonim/library-app#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.0"
+  }
+}
